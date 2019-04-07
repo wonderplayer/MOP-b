@@ -1,0 +1,16 @@
+ARM GAS  add.s 			page 1
+
+
+   1              		.text
+   2              		.align	2
+   3              		.global	add
+   4              		.type	add, %function
+   5              		.global f
+   6              		.type f, %function
+   7              	add:
+   8 0000 010080E0 		add r0, r0, r1
+   9 0004 1EFF2FE1 		bx lr
+  10              		.size	add, .-add
+  11              	f:
+  12 0008 010080E2 		add r0, r0, #1
+  13 000c 1EFF2FE1 		bx lr...

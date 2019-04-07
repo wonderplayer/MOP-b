@@ -1,0 +1,11 @@
+ARM GAS  const.s 			page 1
+
+
+   1              		.text
+   2              		.align	2
+   3              		.global	const1
+   4              		.type	const1, %function
+   5              	const1:
+   6 0000 1100A0E3 		mov r0, #0x11
+   7 0004 1EFF2FE1 		bx lr
+   8              		.size	const1, .-const1

@@ -1,0 +1,76 @@
+Grading rs16048 (2019-03-27_15-07)
+
+Making test case test_all...
+arm-linux-gnueabi-gcc -g -mcpu=xscale -O0 -Wall -o md1_main.o -c md1_main.c
+arm-linux-gnueabi-as -g -mcpu=xscale -alh=md1.lis -L -o md1.o md1.s
+arm-linux-gnueabi-gcc  -o test_all md1_main.o md1.o
+Make successful.
+=== Score: +1
+
+===== Test case: test1
+Testing input:
+1
+Expected output:
+1
+Received output:
+1
+=== Score: +2
+
+===== Test case: test2
+Testing input:
+2
+Expected output:
+3
+Received output:
+3
+=== Score: +2
+
+===== Test case: test3
+Testing input:
+3
+Expected output:
+6
+Received output:
+6
+=== Score: +2
+
+===== Test case: test4
+Testing input:
+10
+Expected output:
+55
+Received output:
+55
+=== Score: +2
+
+===== Test case: test5
+Testing input:
+100
+Expected output:
+5050
+Received output:
+5050
+=== Score: +2
+
+===== Test case: test6
+Testing input:
+1234
+Expected output:
+761995
+Received output:
+761995
+=== Score: +2
+
+===== Test case: test7
+Testing input:
+1582
+Expected output:
+1252153
+Received output:
+1252153
+=== Score: +2
+
+Total Score: 15 
+============
+
+Maksimālais iespējamais punktu skaits par šo uzdevumu: 15

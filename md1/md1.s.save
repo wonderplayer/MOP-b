@@ -1,0 +1,7 @@
+	.text
+	.align	2
+	.global asum
+	.type asum, %function
+asum:
+	add r0, r0, #1
+	bx lr
