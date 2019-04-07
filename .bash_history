@@ -145,3 +145,5 @@ pico md1.s
 qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md1
 pico md1.s
 exit
+cd md2
+cd md2

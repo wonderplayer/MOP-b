@@ -3,18 +3,16 @@ ARM GAS  md2.s 			page 1
 
    1              		.text
    2              		.align	2
-   3              		.global	asum
-   4              		.type	asum, %function
-   5              	asum:
-   6 0000 0010A0E3 		mov r1, #0 @ Glaba cikla mainigo
-   7 0004 0020A0E3 		mov r2, #0 @ Glaba summu
-   8 0008 010000EA 		b test
-   9              	loop:
-  10 000c 011081E2 		add r1, r1, #1 @ Inkremente cikla mainigo
-  11 0010 012082E0 		add r2, r2, r1 @ Pieskaita klat mainigo
-  12              	test:
-  13 0014 000051E1 		cmp r1, r0 @ Salidzina cikla mainigo ar padoto parametru
-  14 0018 FBFFFFBA 		blt loop @ Ja cikla mainigais ir mazaks vai lielaks tad ejam atpakal uz ciklu
-  15              	endloop:
-  16 001c 0200A0E1 		mov r0, r2
-  17 0020 1EFF2FE1 		bx lr
+   3              		.global matmul
+   4              		.type matmul, %function
+   5              	matmul:
+   6 0000 0110A0E3 		mov r1, #1
+   7 0004 0220A0E3 		mov r2, #2
+   8 0008 0330A0E3 		mov r3, #3
+   9 000c 0440A0E3 		mov r4, #4
+  10 0010 08D04DE2 		sub sp, sp, #8		@make space
+  11 0014 0600ADE9 		stmfa sp!, {r1,r2}	@sp->1, 2
+  12 0018 60003DE8 		ldmfa sp!, {r5,r6}	@1, 2, sp->
+  13              		@stmia sp, {r3, r4}	@1, 2, sp->3, 4
+  14 001c 08D08DE2 		add sp, sp, #8		@1, 2, 3, 4, sp->
+  15 0020 1EFF2FE1 		bx lr
