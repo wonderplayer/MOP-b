@@ -147,3 +147,177 @@ pico md1.s
 exit
 cd md2
 cd md2
+cd md2
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+sd13
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+ls
+mkdir md2
+cd md2
+ls
+cd ..
+cd md1
+ls
+cd ..
+cp md1/*\.. md2
+cp md1/*.. md2
+cp md1/*.$ md2
+cp md1/md1.h md2/md2.h
+cp md1/md1.s md2/md2.s
+cp md1/md1_main.c md2/md2_main.c
+cp md1/Makefile md2
+ls md2
+cd md2
+pcio Makefile 
+pico Makefile 
+make
+pico md2_main.c 
+make
+pico Makefile 
+make
+pico md2_main..c
+pico md2_main.c
+make
+pico md2_main.c
+make
+pico md2_main.c
+make
+touch infile.txt
+pico infile.txt
+pico Makefile 
+make
+pico Makefile 
+make
+pico Makefile 
+pico md2_main.c
+cd ..
+ls
+git clone https://github.com/wonderplayer/MOP-b.git .
+git init
+ls -a
+git add
+git add .
+git status
+git commit -am Initial commit
+git commit -m Initial commit
+git commit -m "Initial commit"
+git config user.email "roland.strakis@gmail.com"
+git config user.name "Rolands Strakis"
+git commit -m "Initial commit"
+git remote add origin https://github.com/wonderplayer/MOP-b
+git push -u origin master
+git pull
+ls
+git status
+git push -u origin master
+git pul
+git pull
+git pull origin master
+git status
+git push
+git push --set-upstream origin master
+git add .
+git status
+git push
+git push --set-upstream origin master
+git push -u origin master
+git remote -v
+git remote rm origin
+git remote add origin https://github.com/wonderplayer/MOP-b.git
+git status
+git push -u origin master
+cd md2
+ls
+pico md2.h
+ls
+pico md2_main.c
+pico md2.s
+pico md2_main.c
+gdb-multiarch md2
+cd md2
+pico md2.s
+pico md2_main.c
+pico md2.s
+cd md2
+pico md2.s
+fg
+pico md2.s
+pico md2_main.c
+pico md2.s
+gdb-multiarch md2
+git add .
+cd ..
+git add .
+git commit -m "Compiling"
+git push
+cd md2
+pico infile.txt 
+pico Makefile 
+make
+pico Makefile 
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt 
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt 
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt 
+cd md2
+quit
+cd md2
+pico md2_main.c
+quit
+cd md2
+pico md2.s
+exit
+cd md2
+pico md2.s
+pico md2_main.c
+pico md2.s
+pico md2_main.c
+pico md2.s
+exit
+cd md2
+cd md2
+make
+pico md2.s
+EXIT
+exit
+cd md2
+make
+pico md2.s
+exit
+cd md2
+make
+pico md2_main.c
+pico md2.s
+cd md2
+pico md2.s
+exit
+cd md2
+gdb-multiarch md2
+quit
+exit
+cd md2
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt
+exit
+cd md2
+make
+qemu-arm -g 16048 -L /usr/arm-linux-gnueabi md2 < infile.txt 
+make
+cd md2
+gdb-multiarch md2
+cd md2
+pico md2.s
+exit
